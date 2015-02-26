@@ -1,3 +1,9 @@
+##########
+# Server #
+##########
+
+log/
+
 #########
 # Silex #
 #########
@@ -42,6 +48,7 @@ local.properties
 ################
 # Sublime Text #
 ################
+
 *.sublime-project
 *.sublime-workspace
 
