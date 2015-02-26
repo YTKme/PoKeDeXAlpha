@@ -1,0 +1,13 @@
+api:
+  prefix: /api
+  resource: api.yml
+
+index:
+  path: /
+  defaults: { _controller: 'PoKeDeXAlphaController::main' }
+
+# Default
+default:
+  path: /{url}
+  requirements: { 'url': '.*' }
+  defaults: { _controller: 'PoKeDeXAlphaController::error' }

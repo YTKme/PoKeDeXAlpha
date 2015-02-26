@@ -1,0 +1,3 @@
+api:
+  path: /
+  defaults: { _controller: 'PoKeDeXAlphaController::main' }

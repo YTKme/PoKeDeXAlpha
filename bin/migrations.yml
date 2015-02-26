@@ -1,0 +1,4 @@
+name: PoKeDeX Alpha Migration
+migrations_namespace: PoKeDeXAlpha\Migration
+table_name: doctrine_migration_version
+migrations_directory: ../src/pokedexalpha/migration

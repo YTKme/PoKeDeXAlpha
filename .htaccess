@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+	Options -MultiViews
+	
+	RewriteEngine On
+	RewriteBase /web
+	
+	# Stop execution if request is for an existing file or directory
+	RewriteCond %{REQUEST_FILENAME} !-f
+	
+	RewriteRule ^ index.php [L]
+</IfModule>
