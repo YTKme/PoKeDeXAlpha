@@ -21,7 +21,7 @@ class PoKeDeXAlphaController {
 	 * @return mixed
 	 */
 	public function main (Request $request, Application $application) {
-		return $application['twig']->render('index.html.twig');
+		return new Response('PoKeDeX Alpha', 200);
 	}
 	
 	/**
@@ -31,7 +31,6 @@ class PoKeDeXAlphaController {
 	 * @return Response
 	 */
 	public function error (Request $request, Application $application) {
-		//return new Response($request->getSchemeAndHttpHost() . $request->getRequestUri(), 404);
 		return new Response('ERROR: Not found.', 404);
 	}
 
