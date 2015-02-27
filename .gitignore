@@ -5,6 +5,13 @@
 log/*.log
 
 ############
+# Database #
+############
+
+bin/doctrine
+bin/doctrine.php
+
+############
 # Composer #
 ############
 
