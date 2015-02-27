@@ -7,7 +7,7 @@ return array(
 	'db.options' => array(
 		'driver' => 'pdo_mysql',
 		'host' => 'localhost',
-		'dbname' => 'quest',
+		'dbname' => 'pokedexalpha',
 		'user' => 'ytk',
 		'password' => 'ytk'
 	),
